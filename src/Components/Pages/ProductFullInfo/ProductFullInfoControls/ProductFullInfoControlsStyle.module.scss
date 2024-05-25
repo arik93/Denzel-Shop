@@ -1,0 +1,59 @@
+.cardStyle {
+  min-width: 100%;
+}
+
+.buttonPlus {
+  border: none;
+  border-radius: 0px;
+  background-color: #feb300;
+  color: black;
+  width: 33%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  &:hover {
+    background-color: rgb(72, 128, 45);
+    color: white !important;
+  }
+}
+
+.badgeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  background-color: #feb300;
+}
+
+.buttonMinus {
+  border: none;
+  border-radius: 7px;
+  background-color: #feb300;
+  color: black;
+  width: 33%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  &:hover {
+    background-color: #FF4D4F;;
+    color: white !important;
+  }
+}
+
+.addToCartBtn {
+  border: none;
+  background-color: rgb(254, 123, 0);
+}
+
+.topControlButtonsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 440px) {
+  .topControlButtonsWrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

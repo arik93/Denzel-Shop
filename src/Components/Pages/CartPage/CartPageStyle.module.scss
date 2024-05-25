@@ -1,0 +1,91 @@
+.cardWrapper {
+  min-height: 100vh;
+}
+
+.buttonPlus {
+  border: none;
+  border-radius: 0px;
+  background-color: #feb300;
+  color: black;
+  width: 33%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: none;
+  &:hover {
+    background-color: rgb(72, 128, 45);
+    color: white !important;
+  }
+}
+
+.badgeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  background-color: #feb300;
+}
+
+.buttonMinus {
+  border: none;
+  border-radius: 0px;
+  background-color: #feb300;
+  color: black;
+  width: 33%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: none;
+  &:hover {
+    background-color: #FF4D4F;;
+    color: white !important;
+  }
+}
+
+.productName {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0;
+    background-color: rgb(254, 123, 0);
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover {
+    color: white;
+    font-weight: bold;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.innerFlexElement {
+  // flex-grow: 1; 
+  width: 25%;
+  margin-right: 10%;
+}
+
+.deleteBtnStyle {
+  float: right;
+}
+
+@media (max-width: 640px) {
+  .innerFlexElement {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .deleteBtnStyle {
+    margin-bottom: auto;
+  }
+}

@@ -1,0 +1,31 @@
+.layoutStyle {
+  min-height: 100vh;
+  background-color: rgb(99, 99, 99);
+}
+
+.headerStyle {
+  display: flex;
+  height: 70px;
+  background-color: #feb300;
+}
+
+.contentStyle {
+  // color: #fff;
+  background-color: rgb(99, 99, 99);
+  margin: 0 50px;
+  padding: 25px 0;
+}
+
+.footerStyle {
+  color: #fff;
+  background-color: #feb300;
+}
+
+@media (max-width: 1224px) {
+  .headerStyle {
+    align-items: center;
+  }
+  .contentStyle {
+    margin: 0 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.catalogWrapper {
+  height: 100%;
+}
+
+.cardStyle {
+  border: none;
+  cursor: pointer;
+}
+
+.gridStyle {
+  width: 25% !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gridStyle {
+    width: 50% !important;
+  }
+}

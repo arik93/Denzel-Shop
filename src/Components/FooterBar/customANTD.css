@@ -1,0 +1,5 @@
+@media (max-width: 1224px) {
+  .ant-layout-footer {
+    padding: 0px 15px !important;
+  }
+}

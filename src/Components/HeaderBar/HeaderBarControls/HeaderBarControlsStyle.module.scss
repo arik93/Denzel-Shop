@@ -1,0 +1,24 @@
+.topButtonsWrapper {
+  width: 75px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@media (max-width: 1224px) {
+  .headerBarControlsWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .topButtonsWrapper {
+    width: 54px;
+  }
+}

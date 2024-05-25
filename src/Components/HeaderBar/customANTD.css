@@ -1,0 +1,21 @@
+.ant-menu-submenu:hover {
+  color: white;
+}
+
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+
+.ant-select-selection-item {
+  font-weight: 600 !important;
+}
+
+.ant-menu-vertical {
+  border-inline-end: 0px !important;
+}
+
+@media (max-width: 1224px) {
+  .ant-layout-header {
+    padding: 0px 15px !important;
+  }
+}
